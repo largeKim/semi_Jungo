@@ -1,0 +1,395 @@
+@CHARSET "utf-8";
+div, ul, li {
+ 	margin:0;
+ 	padding:0;
+}
+body{
+	width:1200px;
+	margin:0px auto;
+}
+header{
+	width:1200px;
+}
+
+header p{
+	text-align: right;
+}
+
+header h1{
+	width:1200px;
+	text-align: center;
+	font-size:50px;
+	color:black;
+	text-shadow:5px 5px 5px gray;
+}
+#banner{
+	width: 700px;
+}
+
+section{
+	width:1200px;
+}
+/*메인헤더 CSS*/
+.header_div{
+	width: 1200px;
+	height: 50px;
+	background-color: black;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+
+}
+.header_div ul {
+    list-style-type: none;
+    margin: 0 0 0 250px;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.header_div li {
+    float: left;
+}
+
+.header_div li a, .mainMenu_dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header_div li a:hover, .mainMenu_dropdown:hover .mainMenu_dropbtn {
+    background-color: gray;
+}
+
+.header_div li.mainMenu_dropdown {
+	display: block;
+}
+
+.mainMenu_dropdown_content {
+    display: none;
+    position: fixed;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.mainMenu_dropdown_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.mainMenu_dropdown_content a:hover {background-color: #f1f1f1}
+
+.mainMenu_dropdown:hover .mainMenu_dropdown_content {
+    display: block;
+}
+#mainImg{
+	width:300px;
+	float:left;
+}
+#mainImg img{
+	width:300px;
+}
+
+span{
+	text-align: center;
+}
+
+/*배너 CSS*/
+#banner {
+	float: left;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+/*로그인 메인 CSS*/
+#login li {
+	list-style-type: none;
+	display:inline;
+	margin-right: 10px;
+}
+
+#login ul {
+	float: left;
+}
+
+#login a:link {
+	color: black;
+	text-decoration: none;
+}
+
+#login a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#login a:hover {
+	color: red;
+}
+#loginex{
+	margin-left: 30px;
+}
+/*공지사항 메인 CSS*/
+.notice_title{
+	text-align: center;
+}
+.notice_table{
+	width: 800px;
+	border-spacing:0px;
+	border : 0;
+	border-bottom: 3px double black;
+	border-top: 3px double black;
+	margin: 0px auto;	
+	margin-bottom: 30px;
+}
+.notice_thead{
+	color: white;
+	background-color: black;
+}
+.notice_tbody{
+	text-align: center;
+}
+.notice_table th{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.notice_table td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.notice_tbody_tr:hover{background-color:#f5f5f5;}
+
+.notice_tfoot_tr:hover{background-color:#f5f5f5;}
+
+.notice_table a:link{ /* 링크가 걸려있는 리스트 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.notice_table a:visited{ /* 링크를 누른 후 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.notice_table a:hover{ /* 마우스를 가져다 댈 때 모양 */
+   color: black;
+}
+/*공지사항 본문내용*/
+.noticeContent_div{
+	width: 1200px;
+}
+.noticeContent_title{
+	text-align: center;
+}
+.noticeContent_table{
+	width: 800px;
+	margin: 0 auto;
+	border-top: 3px double black;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+.noticeContent_table th{
+	padding: 8px;
+	text-align: center;
+}
+.noticeContent_table tfoot td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 3px double black;
+}
+.noticeContent_table tr:NTH-CHILD(even) {background-color: #f2f2f2}
+.noticeContent_table a:link{ /* 링크가 걸려있는 리스트 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.noticeContent_table a:visited{ /* 링크를 누른 후 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.noticeContent_table a:hover{ /* 마우스를 가져다 댈 때 모양 */
+   color: black;
+}
+/*공지사항 글쓰기*/
+.noticeWrite_title{
+	text-align: center;
+}
+.noticeWrite_table{
+	width: 800px;
+	border-spacing:0px;
+	border : 0;
+	border-bottom: 3px double black;
+	border-top: 3px double black;
+	margin: 0px auto;	
+	margin-bottom: 30px;
+}
+.noticeWrite_thead{
+	color: white;
+	background-color: black;
+}
+.noticeWrite_tbody{
+	text-align: center;
+}
+.noticeWrite th{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.noticeWrite td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.noticeWrite_tbody_tr:hover{background-color:#f5f5f5;}
+
+.noticeWrite_tfoot_tr:hover{background-color:#f5f5f5;}
+
+.anoticeWrite_table a:link{ /* 링크가 걸려있는 리스트 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.anoticeWrite_table a:visited{ /* 링크를 누른 후 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.noticeWrite_table a:hover{ /* 마우스를 가져다 댈 때 모양 */
+   color: black;
+}
+.noticeWrite_table tfoot tr{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 3px double black;
+}
+/*공지사항 수정하기*/
+.noticeModify_title{
+	text-align: center;
+}
+.noticeModify_table{
+	width: 800px;
+	border-spacing:0px;
+	border : 0;
+	border-bottom: 3px double black;
+	border-top: 3px double black;
+	margin: 0px auto;	
+	margin-bottom: 30px;
+}
+.noticeModify_tbody{
+	text-align: center;
+}
+.noticeModify th{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.noticeModify td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.noticeModify_tbody_tr:hover{background-color:#f5f5f5;}
+
+.noticeModifye_tfoot_tr:hover{background-color:#f5f5f5;}
+
+.noticeModify_table a:link{ /* 링크가 걸려있는 리스트 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.noticeModify_table a:visited{ /* 링크를 누른 후 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.noticeModify_table a:hover{ /* 마우스를 가져다 댈 때 모양 */
+   color: black;
+}
+.noticeModify_table tfoot tr{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 3px double black;
+}
+/*광고,제휴 페이지*/
+.advertise_title{
+	text-align: center;
+}
+.advertise_table{
+	width: 800px;
+	border-spacing:0px;
+	border : 0;
+	border-bottom: 3px double black;
+	border-top: 3px double black;
+	margin: 0px auto;	
+	margin-bottom: 30px;
+}
+.advertise_thead{
+	color: white;
+	background-color: black;
+}
+.advertise_tbody{
+	text-align: center;
+}
+.advertise_table th{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.advertise_table td{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.advertise_tbody_tr:hover{background-color:#f5f5f5;}
+
+.advertise_tfoot_tr:hover{background-color:#f5f5f5;}
+
+.advertise_table a:link{ /* 링크가 걸려있는 리스트 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.advertise_table a:visited{ /* 링크를 누른 후 모양 */
+   color: red;
+   text-decoration: none;
+}
+
+.advertise_table a:hover{ /* 마우스를 가져다 댈 때 모양 */
+   color: black;
+}
+/*광고 제휴 페이지 내용*/
+.advContent_div{
+	width: 1200px;
+}
+.advContent_title{
+	text-align: center;
+}
+.advContent_table{
+	width: 800px;
+	margin: 0 auto;
+	border-top: 3px double black;
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+.advContent_table th{
+	padding: 8px;
+	text-align: center;
+}
+.advContent_table tfoot tr{
+	padding: 8px;
+	text-align: center;
+	border-bottom: 3px double black;
+}
+.advContent_table tr:NTH-CHILD(even) {background-color: #f2f2f2}
+
+p {
+	clear: both;
+	font-size: 11px;
+}
