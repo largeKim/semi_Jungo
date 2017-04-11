@@ -3,7 +3,7 @@ package tt.wf;
 import java.io.File;
 
 /** DTO의 용도로도 사용하는 DAO클래스
- *  사진이미지 최대 10MB
+ *  사진이미지 최대 10MB 까지 가능하다.
  *  */
 public class WebFolderDAO {
 
