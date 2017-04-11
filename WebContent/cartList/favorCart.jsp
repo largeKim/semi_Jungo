@@ -81,7 +81,7 @@ a:HOVER {
 </style>
  <%
   int total = 0;
-   String id = (String)session.getAttribute("sid");//업로드 전에 주석 제거하고 바로아래 라인 삭제
+   String id = (String)session.getAttribute("sid");//업로ㅇㅇ 전에 주석 제거하고 바로아래 라인 삭제
  
   
   
@@ -90,7 +90,7 @@ a:HOVER {
   if(id==null || id.equals("")){
 	  %>
 	  <script>
-	  window.alert('로그인이 필요한 서비스 입니다.');
+	  window.alert('로그인이 필요한 서비스 입니다.!!');
 	  location.href="/semi_Jungo/login.jsp";
 	  </script>
 	  <%
@@ -137,6 +137,7 @@ a:HOVER {
 						  if(al.get(i).getType().equals("Auction")){
 						 	 %>
 						  	<a href="/semi_Jungo/productList/auctionContent.jsp?idx=<%=al.get(i).getIdx()%>"><img src="<%=al.get(i).getEtc1()%>" id="img" ></a>
+						  	
 						  	<%
 						  }else{
 							%>
