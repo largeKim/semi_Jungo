@@ -80,7 +80,7 @@ li {
 	<table class="footTable">
 		<tr>
 			<th>
-			대표이사 : 배병욱<br>
+			대표이사 : 배병욱입니다.<br>
 			전화번호 : 010 - 9378 - 4713
 			</th>
 			<th>
